@@ -154,6 +154,11 @@ a {
 }
 
 @media (max-width: 630px) {
+  .homescreen {
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow-y: hidden;
+  }
   .image__box {
     display: none;
   }
@@ -167,6 +172,7 @@ a {
     display: flex;
     width: 90%;
     height: 200px;
+    align-self: center;
     justify-content: center;
     align-items: center;
   }

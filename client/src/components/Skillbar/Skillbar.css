@@ -23,3 +23,12 @@
     width: 0;
   }
 }
+@media (max-width: 630px) {
+  .skill__name {
+    font-size: 13px;
+  }
+  .skillbar {
+    height: 15px;
+    width: 75%;
+  }
+}

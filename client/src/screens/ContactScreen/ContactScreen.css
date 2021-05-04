@@ -71,6 +71,7 @@
   border: 2px solid white;
   border-radius: 20px;
   transition: 0.5s;
+  outline: none;
 }
 .contact__btn:hover {
   background-color: white;
@@ -89,5 +90,27 @@
   }
   .contact__screen {
     padding: 20px 2px;
+  }
+}
+@media (max-width: 630px) {
+  .form__box {
+    width: 98%;
+    padding: 20px 5px;
+  }
+  .form__input {
+    width: 100%;
+  }
+  .contact__header {
+    margin-bottom: 10px;
+  }
+  .contact__screen {
+    padding: 20px 2px;
+  }
+  .contact__btn {
+    width: 90px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    outline: none;
   }
 }

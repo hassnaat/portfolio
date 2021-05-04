@@ -37,9 +37,7 @@ const Navbar = ({ click, hide }) => {
         </>
       )}
       <div className="toggle" onClick={click}>
-        <span className="toggle__bar"></span>
-        <span className="toggle__bar"></span>
-        <span className="toggle__bar"></span>
+        <i class="fas fa-bars"></i>
       </div>
     </div>
   );
