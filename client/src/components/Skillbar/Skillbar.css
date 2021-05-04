@@ -28,6 +28,7 @@
     font-size: 13px;
     font-weight: bold;
     flex: 1;
+    min-width: 100px;
   }
   .skillbar {
     height: 15px;
