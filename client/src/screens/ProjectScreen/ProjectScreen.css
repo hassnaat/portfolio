@@ -25,3 +25,10 @@
   align-items: flex-start;
   flex-wrap: wrap;
 }
+@media (max-width: 630px) {
+  .projects__list {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(32, 32, 42, 0.9);
+  }
+}
