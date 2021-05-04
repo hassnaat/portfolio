@@ -95,7 +95,7 @@
 @media (max-width: 630px) {
   .form__box {
     width: 98%;
-    padding: 20px 5px;
+    padding: 5px;
   }
   .form__input {
     width: 100%;
@@ -107,10 +107,15 @@
     padding: 20px 2px;
   }
   .contact__btn {
-    width: 90px;
-    height: 30px;
+    margin-top: 3px;
+    width: 93px;
+    height: 32px;
+    border-radius: 14px;
     font-size: 13px;
     font-weight: bold;
     outline: none;
+    background-color: white;
+    color: #2c2c38;
+    border: 2px solid #2c2c38;
   }
 }
