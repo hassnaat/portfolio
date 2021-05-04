@@ -1,0 +1,25 @@
+.skill {
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skillbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 20px;
+  width: 80%;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.progress {
+  background: linear-gradient(45deg, #edd17d, #93eada, #12404c);
+  height: 100%;
+  border-radius: 10px;
+  animation: animate 2s ease-in-out forwards;
+}
+@keyframes animate {
+  from {
+    width: 0;
+  }
+}

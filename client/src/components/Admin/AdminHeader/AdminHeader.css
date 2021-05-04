@@ -1,0 +1,13 @@
+.admin__header {
+  width: 100%;
+  margin-bottom: 30px;
+  color: #f4f4f4;
+  padding: 50px;
+}
+.admin__header > a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.admin__heading {
+  margin-bottom: 5px;
+}

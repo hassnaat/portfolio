@@ -1,0 +1,31 @@
+.skills__list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f4f4f4;
+}
+.skills__list > .list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills__list > .list > table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100px;
+  background-color: rgba(10, 20, 25, 0.9);
+}
+.skills__list > .list > table > tr {
+  margin: 5px 0px;
+}
+.list > table > tr > td,
+th {
+  min-width: 100px;
+  min-height: 60px;
+  text-align: center;
+}

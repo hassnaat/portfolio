@@ -1,0 +1,63 @@
+.add__project {
+  width: 100%;
+}
+.error__message {
+  width: 100%;
+  color: rgb(209, 43, 13);
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.success__message {
+  width: 100%;
+  color: rgb(104, 247, 91);
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.add__message {
+  width: 100%;
+  color: rgb(77, 233, 212);
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.add__project > form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add__project > form > input {
+  background-color: #171717;
+  padding: 3px;
+  outline: none;
+  color: white;
+}
+
+.add_project__btn {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  background-color: rgb(25, 223, 223);
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin: 5px 0px;
+}
+.add_project__btn:hover {
+  background-color: rgb(65, 243, 263);
+}
+@media (max-width: 960px) {
+  .add__project > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .add__project > form > input {
+    width: 90%;
+    background-color: #171717;
+    padding: 3px;
+  }
+}

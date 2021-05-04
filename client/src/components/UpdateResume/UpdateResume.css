@@ -1,0 +1,38 @@
+.update__resume {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.update__resume form {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.resume__input {
+  width: 180px;
+  height: 35px;
+  visibility: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.resume_update__btn {
+  width: 80px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  cursor: pointer;
+}

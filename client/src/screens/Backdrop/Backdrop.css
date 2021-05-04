@@ -1,0 +1,13 @@
+.backdrop {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 50;
+  display: none;
+}
+@media (max-width: 960px) {
+  .show__backdrop {
+    display: flex;
+  }
+}

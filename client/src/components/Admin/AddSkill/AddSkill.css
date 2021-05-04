@@ -1,0 +1,44 @@
+.add__skill {
+  width: 100%;
+  padding: 10px 0px;
+}
+.error__message {
+  width: 100%;
+  color: rgb(209, 43, 13);
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.success__message {
+  width: 100%;
+  color: rgb(104, 247, 91);
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.add__message {
+  width: 100%;
+  color: rgb(77, 233, 212);
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.add__skill > form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.add__skill > form > input {
+  font-size: 17px;
+  padding: 3px;
+  color: white;
+  background-color: #171717;
+}
+.add__skill_btn {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(10, 228, 228);
+  color: white;
+  border: none;
+}

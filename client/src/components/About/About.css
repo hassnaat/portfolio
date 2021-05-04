@@ -1,0 +1,30 @@
+.about {
+  flex: 1 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding: 25px 10px;
+}
+.about__header {
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 25px;
+}
+.user__details {
+  text-align: justify;
+  color: #f4f4f4;
+  padding: 5px 20px;
+}
+
+@media (max-width: 960) {
+  .user__details {
+    padding: 5px 5px;
+  }
+}
+@media (max-width: 660) {
+  .user__details {
+    padding: 3px 10px;
+  }
+}
