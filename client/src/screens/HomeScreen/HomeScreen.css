@@ -157,7 +157,7 @@ a {
   .homescreen {
     background-attachment: fixed;
     background-size: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
   }
   .image__box {
     display: none;
