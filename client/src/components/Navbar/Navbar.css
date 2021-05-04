@@ -11,13 +11,12 @@
 }
 .toggle {
   width: 40px;
-  height: 40px;
+  height: 90%;
   padding: 2px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   cursor: pointer;
-  transition: all 0.3s ease-out;
 }
 .toggle__bar {
   width: 100%;
