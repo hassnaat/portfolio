@@ -27,6 +27,7 @@
   align-items: center;
   padding: 50px;
   margin-top: -50px;
+  animation: formBounce 0.5s linear 1;
 }
 .form__box > form > div {
   width: 100%;
@@ -79,6 +80,21 @@
   color: #2c2c38;
   border: 2px solid #2c2c38;
 }
+@keyframes formBounce {
+  20% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 960px) {
   .form__box {
     width: 95%;

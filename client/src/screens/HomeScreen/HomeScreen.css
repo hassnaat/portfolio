@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: flex-start;
   height: 100px;
+  animation: fadeIn 2s ease-in-out 1;
 }
 a {
   text-decoration: none;
@@ -71,6 +72,8 @@ a {
   color: #f4f4f4;
   max-height: 300px;
   margin-bottom: 60px;
+  overflow-x: hidden;
+  animation: slideInBottom 1s linear 1;
 }
 .image__box {
   width: 100%;
@@ -78,10 +81,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 .home__image {
   width: 100%;
   height: 100%;
+  animation: slideInRight 1s ease-out 1;
 }
 
 .intro__name {
@@ -144,6 +149,35 @@ a {
   display: none;
 }
 
+@keyframes slideInRight {
+  from {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInBottom {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 960px) {
   .intro__name {
     font-size: 56px;
@@ -175,6 +209,7 @@ a {
     align-self: center;
     justify-content: center;
     align-items: center;
+    animation: slideInRight 1s linear 1;
   }
   .image__mobile {
     display: flex;
