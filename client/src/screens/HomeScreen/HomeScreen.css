@@ -161,7 +161,7 @@ a {
 }
 @keyframes slideInBottom {
   from {
-    transform: translateY(200px);
+    transform: translateY(20px);
     opacity: 0;
   }
   to {
