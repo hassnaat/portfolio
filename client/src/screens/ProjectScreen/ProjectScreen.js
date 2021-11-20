@@ -3,6 +3,7 @@ import Project from '../../components/Project/Project';
 import './ProjectScreen.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProjects } from '../../redux/actions/projectsAction';
+import LoaderBox from '../../components/Loaders/LoaderBox';
 
 
 const ProjectScreen = () => {
@@ -17,7 +18,7 @@ const ProjectScreen = () => {
                 <h1 className='projects__heading'>My Work!</h1> <hr />
                 <div className='projects__list'>
                     {
-                        loading ? <h2>Loading Projects...</h2> : error ? <h2>Failed to Load Projects</h2> :
+                        loading ? <LoaderBox /> : error ? <h2>Failed to Load Projects</h2> :
                             <>
                                 {
                                     projects.data.map(project => (
